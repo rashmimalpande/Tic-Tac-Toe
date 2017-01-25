@@ -1,0 +1,58 @@
+.board{
+  width: 300px;
+  height: 350px;
+  margin: 20% auto;
+  border: 20px solid #f0b487;
+  border-radius: 10px;
+  background-color:#28503C;
+  border-top: 40px solid #f0b487;
+  border-bottom: 40px solid #f0b487;
+  box-shadow: 1px 0 10px 1px #333;
+}
+
+.landing-screen{
+  width:100%;
+  position:relative;
+}
+.title{
+  font-family: 'Indie Flower', cursive;
+  margin: 10px auto;
+  color: #fff;
+  text-align:center;
+  padding: 10px;
+}
+
+.player{
+  display: flex;
+  margin: 20px auto;
+  
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  border: 1px dashed #fff;
+  border-radius:50px;
+}
+
+.choose-symbol{
+  width:100%;
+  display:none;
+}
+
+.back-btn{
+  color: #fff;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
